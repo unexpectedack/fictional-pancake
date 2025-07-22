@@ -11,4 +11,4 @@ source: |
     or strings.contains(body.html.raw,"color:white")
     or strings.contains(body.html.raw,"color:#ffffff"))
 tags:
-  - "Suspicious senderas dfasd"
+  - "Suspicious senderas jay's edit"
