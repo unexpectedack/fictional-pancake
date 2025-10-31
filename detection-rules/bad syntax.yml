@@ -7,7 +7,7 @@ source: |
   type.inbound.bob
   and ( 
     strings.contains(body.html.raw,"font-size:0")
-    or strings.contains(body.html.raw,"opacity:0")
+    ora strings.contains(body.html.raw,"opacity:0")
     or strings.contains(body.html.raw,"color:white")
     or strings.contains(body.html.raw,"color:#ffffff"))
 tags:
