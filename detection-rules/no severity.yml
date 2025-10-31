@@ -2,7 +2,6 @@ name: "Gemini invisible prompt abuse"
 description: |
   insert description here
 type: "rule"
-severity: "medium"
 source: |
   type.inbound
   and ( 

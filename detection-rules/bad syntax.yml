@@ -1,14 +1,14 @@
-name: "Gemini invisible prompt abuse"
+name: "Bad Syntax"
 description: |
   insert description here
 type: "rule"
 severity: "medium"
 source: |
-  type.inbound
+  type.inbound.bob
   and ( 
     strings.contains(body.html.raw,"font-size:0")
     or strings.contains(body.html.raw,"opacity:0")
     or strings.contains(body.html.raw,"color:white")
     or strings.contains(body.html.raw,"color:#ffffff"))
 tags:
-  - "Suspicious senderas jay's edit"
+  - "Bob Barker"

@@ -2,7 +2,7 @@ name: "Gemini invisible prompt abuse"
 description: |
   insert description here
 type: "rule"
-severity: "medium"
+severity: "meidum"
 source: |
   type.inbound
   and ( 
@@ -11,4 +11,4 @@ source: |
     or strings.contains(body.html.raw,"color:white")
     or strings.contains(body.html.raw,"color:#ffffff"))
 tags:
-  - "Suspicious senderas jay's edit"
+  - "Suspicious"
